@@ -1,0 +1,43 @@
+body{
+    
+    margin: auto;
+    height: 100vh;
+    width: 100vw;
+}
+
+.flexbox-container {
+    background-color: blanchedalmond;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.flex-one{
+    background-color: peachpuff;
+    flex-grow: 3;
+    flex-shrink: 1;
+    order: 4;
+
+} 
+
+.flex-two {
+    background-color: blanchedalmond;
+    flex: 1;
+    order: 3;
+    
+}
+
+.flex-three {
+    background-color: peachpuff;
+    flex: 1;
+    order: 2;
+}
+
+.flex-four {
+    background-color: blanchedalmond;
+    flex: 1;
+    order: 1;
+}
